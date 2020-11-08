@@ -27,7 +27,7 @@
 @media screen and (min-width: 768px){
     :root{
         --big-font: 10.5rem;
-        --desktop: 5.5rem;
+        --desktop: 5rem;
         --h2-font: 2rem;
         --normal-font: 1rem;
         --small-font: .875rem;
@@ -420,12 +420,13 @@ img {
 
     .home__container{
         height: 100vh;
+        margin-top: 2rem;
         grid-template-rows: 1.7fr 1fr;
         row-gap: 0;
     }
 
     .home__name{
-        font-size: var(--desktop);
+        font-size: 5rem;
     }
 
     .about__container{
