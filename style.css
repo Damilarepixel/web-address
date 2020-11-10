@@ -315,7 +315,7 @@ img {
     padding: 4rem 2rem;
     justify-content: center;
     align-items: center;
-    background-color: #171732;
+    background-color: var(--main);
     opacity: 0.85;
     border-radius: .5rem;
     cursor: pointer;
