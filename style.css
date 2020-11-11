@@ -359,12 +359,29 @@ img {
     border-radius: .2rem;
     border: none;
     color: var(--white);
-    line-height: 1;
-    margin: 0.5em;
-    padding: .75rem 2.5rem;
+    margin-top: 3em;
+    padding: 1.5rem 1.5rem;
     outline: none;
     font-size: var(--normal-font);
     cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+}
+
+.contact__button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, .5);
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.contact__button:hover::before {
+    opacity: 1;
 }
 
 .footer-copy {
