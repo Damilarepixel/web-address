@@ -229,16 +229,11 @@ img {
     text-shadow: 0 20px 25px rgba(0, 0, 0, .5);
 }
 
-.home__scroll {
-    align-self: flex-end;
-    padding-bottom: var(--m4);
+.home__scroll-link {
+    display: none;
+
 }
 
-.home__scroll-link {
-    writing-mode: vertical-lr;
-    transform: rotate(-180deg);
-    color: var(--white);
-}
 
 /* About section */
 .about__container {
@@ -372,6 +367,15 @@ img {
     cursor: pointer;
 }
 
+.footer-copy {
+    background-color: var(--main);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: var(--white);
+}
+
+
 
 
 /* === Desktop ===*/
@@ -469,6 +473,14 @@ img {
 
     .contact__subtitle {
         font-size: var(--h2-font);
+    }
+
+    .footer-copy {
+        display: flex;
+        justify-items: center;
+        text-align: center;
+        justify-self: center;
+        align-items: center;
     }
 
 
