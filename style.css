@@ -350,7 +350,9 @@ img {
     padding-right: 2rem;
 }
 
-
+#tags {
+    display: none;
+}
 /* Contact */
 .contact__container {
     row-gap: 2rem;
@@ -509,6 +511,12 @@ img {
         grid-template-columns: repeat(2, 1fr);/* repeat(2, 1fr)*/
         grid-template-rows: repeat(2, 1fr);
         column-gap: 2rem;
+    }
+
+    #tags {
+        
+        font-size: var(--small-font);
+        color: var(--white);
     }
 
     .contact__container{
