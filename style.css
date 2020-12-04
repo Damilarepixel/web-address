@@ -347,6 +347,7 @@ img {
 
 .portfolio__link-name {
     color: var(--white);
+    padding-right: 2rem;
 }
 
 
