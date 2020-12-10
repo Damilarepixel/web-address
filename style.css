@@ -13,6 +13,21 @@
     --text: #242323;
 }
 
+/* notification styles */
+
+.contactPopupContainer {
+    position: fixed;
+    bottom : -10%;
+    left : 20px;
+    transition : .5s all ease;
+    border-radius: 10px;
+    display : inline-block;
+    background-color: #000;
+    color  :#fff;
+    padding : 5px 15px;
+
+}
+
 /* Fonts*/
 :root{
     --body-font:  'Inter', sans-serif;

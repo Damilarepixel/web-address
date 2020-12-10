@@ -8,12 +8,12 @@ const notification = document.querySelector('.contactPopupContainer')
 const notificationMessage = document.querySelector('.contactPopupMessage')
 
 const handleNotification = message => {
-    notification.style.height = '60px'
+    notification.style.bottom = '10%'
     notification.innerHTML = message
     setTimeout(()=> {
-        notification.innerHTML = ''
-        notification.style.height = '0px'
-    })
+        // notification.innerHTML = ''
+        notification.style.bottom = '-10%'
+    }, 1000)
 }
 
 
