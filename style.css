@@ -5,6 +5,7 @@
     --font-medium: 500; /*this is for the font medium size*/
 }
 
+
 /*Colors*/
 :root{
     --main: #1d1d63;
@@ -15,18 +16,6 @@
 
 /* notification styles */
 
-.contactPopupContainer {
-    position: fixed;
-    bottom : -10%;
-    left : 20px;
-    transition : .5s all ease;
-    border-radius: 10px;
-    display : inline-block;
-    background-color: #000;
-    color  :#fff;
-    padding : 5px 15px;
-
-}
 
 /* Fonts*/
 :root{
@@ -84,6 +73,8 @@ body{
 
 h1,h2,p {
     margin: 0;
+    display: flex;
+    
 }
 
 
@@ -104,6 +95,7 @@ img {
     height: auto;
 }
 
+
 /* Section */
 .section {
     padding: 3rem 0;
@@ -115,6 +107,8 @@ img {
     color: var(--dark);
     margin: var(--m4) 0;
     text-align: center;
+    width: 80%;
+    
 }
 
 .section-title::after {
@@ -319,6 +313,8 @@ img {
     color: var(--white);
 }
 
+
+
 /* portfolio */
 .portfolio {
     background-color: var(--white);
@@ -433,6 +429,17 @@ img {
     color: var(--white);
 }
 
+.contactPopupContainer {
+    position: fixed;
+    bottom : -10%;
+    left : 20px;
+    transition : .5s all ease;
+    border-radius: 10px;
+    display : inline-block;
+    background-color: #000;
+    color  :#fff;
+    padding : 5px 15px;
+}
 
 
 
